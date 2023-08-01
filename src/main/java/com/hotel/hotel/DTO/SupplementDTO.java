@@ -1,0 +1,16 @@
+package com.hotel.hotel.DTO;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+public class SupplementDTO {
+
+    private int supplementID;
+
+    private double price;
+    private String supOptions;
+}
