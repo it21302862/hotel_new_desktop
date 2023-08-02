@@ -26,4 +26,9 @@ public class Season {
 
     @NotNull(message = "End date must not be null")
     private Date endDate;
+
+    @ManyToOne
+    @JoinColumn(name = "hotel_contract_id", nullable = false)
+    @NotNull(message = "Hotel Contract is required")
+    private HotelContract hotelContract;
 }

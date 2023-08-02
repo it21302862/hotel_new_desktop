@@ -1,5 +1,6 @@
 package com.hotel.hotel.DTO;
 
+import com.hotel.hotel.entity.HotelContract;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -14,4 +15,5 @@ public class SeasonDTO {
     private String seasonName;
     private Date startDate;
     private  Date endDate;
+    private HotelContract hotelContract;
 }
